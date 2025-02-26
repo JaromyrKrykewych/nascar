@@ -3,7 +3,10 @@
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useEffect, useState } from "react";
 
-export default function Home() {
+import { useParams } from "next/navigation";
+
+const TrackData = () => {
+  const { track } = useParams();
   const [isVisible, setIsVisible] = useState(false);
 
   const [standings, setStandings] = useState([]);
@@ -13,9 +16,15 @@ export default function Home() {
   const [overallRanking, setOverallRanking] = useState([]);
 
   useEffect(() => {
-    fetch("/api/standings")
-      .then((res) => res.json())
+    if (!track) return;
+
+    fetch(`/api/standings?track=${track}`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+        res.json();
+      })
       .then((data) => {
+        if (!data || data.length === 0) throw new Error("No data received");
         setStandings(data.standings);
         setPositions(data.positions);
         setBestAverages(data.bestAverages);
@@ -23,11 +32,11 @@ export default function Home() {
         setOverallRanking(data.finalRanking);
       })
       .catch((err) => console.error("Error fetching standings:", err));
-  }, []);
+  }, [track]);
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Standings</h1>
+      <h1 className="text-2xl font-bold mb-4">Standings for {track}</h1>
       {/* Botón para mostrar/ocultar */}
       <button
         onClick={() => setIsVisible(!isVisible)}
@@ -361,4 +370,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default TrackData;

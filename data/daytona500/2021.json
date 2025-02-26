@@ -1,0 +1,345 @@
+{
+  "race": "Daytona 500",
+  "laps": 200,
+  "year": 2021,
+  "duel1": [
+    { "driver": "Aric Almirola", "position": 1, "points": 10 },
+    { "driver": "Christopher Bell", "position": 2, "points": 9 },
+    { "driver": "Ryan Newman", "position": 3, "points": 8 },
+    { "driver": "Joey Logano", "position": 4, "points": 7 },
+    { "driver": "Ryan Preece", "position": 5, "points": 6 },
+    { "driver": "Ty Dillon", "position": 6, "points": 5 },
+    { "driver": "Kyle Larson", "position": 7, "points": 4 },
+    { "driver": "Daniel Suarez", "position": 8, "points": 3 },
+    { "driver": "Michael McDowell", "position": 9, "points": 2 },
+    { "driver": "Jamie McMurray", "position": 10, "points": 1 }
+  ],
+  "duel2": [
+    { "driver": "Austin Dillon", "position": 1, "points": 10 },
+    { "driver": "Bubba Wallace", "position": 2, "points": 9 },
+    { "driver": "Kevin Harvick", "position": 3, "points": 8 },
+    { "driver": "Kyle Busch", "position": 4, "points": 7 },
+    { "driver": "Chase Elliott", "position": 5, "points": 6 },
+    { "driver": "Ryan Blaney", "position": 6, "points": 5 },
+    { "driver": "Corey LaJoie", "position": 7, "points": 4 },
+    { "driver": "David Ragan", "position": 8, "points": 3 },
+    { "driver": "Kurt Busch", "position": 9, "points": 2 },
+    { "driver": "Chris Buescher", "position": 10, "points": 1 }
+  ],
+  "info": [
+    {
+      "stage": 1,
+      "lap": 60
+    },
+    {
+      "stage": 2,
+      "lap": 120
+    }
+  ],
+  "stage1": [
+    { "driver": "Denny Hamlin", "position": 1, "points": 10 },
+    { "driver": "Ryan Preece", "position": 2, "points": 9 },
+    { "driver": "Austin Dillon", "position": 3, "points": 8 },
+    { "driver": "Kyle Larson", "position": 4, "points": 7 },
+    { "driver": "Austin Cindric", "position": 5, "points": 6 },
+    { "driver": "Christopher Bell", "position": 6, "points": 5 },
+    { "driver": "Bubba Wallace", "position": 7, "points": 4 },
+    { "driver": "Joey Logano", "position": 8, "points": 3 },
+    { "driver": "Ross Chastain", "position": 9, "points": 2 },
+    { "driver": "Cole Custer", "position": 10, "points": 1 }
+  ],
+  "stage2": [
+    { "driver": "Denny Hamlin", "position": 1, "points": 10 },
+    { "driver": "Kevin Harvick", "position": 2, "points": 9 },
+    { "driver": "Bubba Wallace", "position": 3, "points": 8 },
+    { "driver": "Chase Elliott", "position": 4, "points": 7 },
+    { "driver": "Austin Dillon", "position": 5, "points": 6 },
+    { "driver": "Joey Logano", "position": 6, "points": 5 },
+    { "driver": "Michael McDowell", "position": 7, "points": 4 },
+    { "driver": "Kyle Larson", "position": 8, "points": 3 },
+    { "driver": "Kyle Busch", "position": 9, "points": 2 },
+    { "driver": "Brad Keselowski", "position": 10, "points": 1 }
+  ],
+  "results": [
+    {
+      "driver": "Michael McDowell",
+      "position": 1,
+      "pointsRace": 40,
+      "lapsLed": 1,
+      "penalization": 0
+    },
+    {
+      "driver": "Chase Elliott",
+      "position": 2,
+      "pointsRace": 35,
+      "lapsLed": 3,
+      "penalization": 0
+    },
+    {
+      "driver": "Austin Dillon",
+      "position": 3,
+      "pointsRace": 34,
+      "lapsLed": 7,
+      "penalization": 0
+    },
+    {
+      "driver": "Kevin Harvick",
+      "position": 4,
+      "pointsRace": 33,
+      "lapsLed": 17,
+      "penalization": 0
+    },
+    {
+      "driver": "Denny Hamlin",
+      "position": 5,
+      "pointsRace": 32,
+      "lapsLed": 98,
+      "penalization": 0
+    },
+    {
+      "driver": "Ryan Preece",
+      "position": 6,
+      "pointsRace": 31,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Ross Chastain",
+      "position": 7,
+      "pointsRace": 30,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Jamie McMurray",
+      "position": 8,
+      "pointsRace": 29,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Corey LaJoie",
+      "position": 9,
+      "pointsRace": 28,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Kyle Larson",
+      "position": 10,
+      "pointsRace": 27,
+      "lapsLed": 1,
+      "penalization": 0
+    },
+    {
+      "driver": "Cole Custer",
+      "position": 11,
+      "pointsRace": 26,
+      "lapsLed": 1,
+      "penalization": 0
+    },
+    {
+      "driver": "Joey Logano",
+      "position": 12,
+      "pointsRace": 25,
+      "lapsLed": 26,
+      "penalization": 0
+    },
+    {
+      "driver": "Brad Keselowski",
+      "position": 13,
+      "pointsRace": 24,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Kyle Busch",
+      "position": 14,
+      "pointsRace": 23,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Austin Cindric",
+      "position": 15,
+      "pointsRace": 22,
+      "lapsLed": 2,
+      "penalization": 0
+    },
+    {
+      "driver": "Christopher Bell",
+      "position": 16,
+      "pointsRace": 21,
+      "lapsLed": 32,
+      "penalization": 0
+    },
+    {
+      "driver": "Bubba Wallace",
+      "position": 17,
+      "pointsRace": 20,
+      "lapsLed": 1,
+      "penalization": 0
+    },
+    {
+      "driver": "Ricky Stenhouse Jr",
+      "position": 18,
+      "pointsRace": 19,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Chase Briscoe",
+      "position": 19,
+      "pointsRace": 18,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Joey Gase",
+      "position": 20,
+      "pointsRace": 17,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Cody Ware",
+      "position": 21,
+      "pointsRace": 16,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Kurt Busch",
+      "position": 22,
+      "pointsRace": 15,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "B.J. McLeod",
+      "position": 23,
+      "pointsRace": 14,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Josh Bilicki",
+      "position": 24,
+      "pointsRace": 13,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Martin Truex Jr",
+      "position": 25,
+      "pointsRace": 12,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "William Byron",
+      "position": 26,
+      "pointsRace": 11,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Tyler Reddick",
+      "position": 27,
+      "pointsRace": 10,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Kaz Grala",
+      "position": 28,
+      "pointsRace": 9,
+      "lapsLed": 10,
+      "penalization": 0
+    },
+    {
+      "driver": "Quin Houff",
+      "position": 29,
+      "pointsRace": 8,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Ryan Blaney",
+      "position": 30,
+      "pointsRace": 7,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Chris Buescher",
+      "position": 31,
+      "pointsRace": 6,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Anthony Alfredo",
+      "position": 32,
+      "pointsRace": 5,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Matt DiBenedetto",
+      "position": 33,
+      "pointsRace": 4,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Aric Almirola",
+      "position": 34,
+      "pointsRace": 3,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Alex Bowman",
+      "position": 35,
+      "pointsRace": 2,
+      "lapsLed": 1,
+      "penalization": 0
+    },
+    {
+      "driver": "Daniel Suarez",
+      "position": 36,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "David Ragan",
+      "position": 37,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Ryan Newman",
+      "position": 38,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Erik Jones",
+      "position": 39,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Derrike Cope",
+      "position": 40,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "race": "Daytona 500",
+  "laps": 200,
+  "year": 2008,
+  "duel1": [
+    { "driver": "Dale Earnhardt, Jr.", "position": 1, "points": 10 },
+    { "driver": "Reed Sorenson", "position": 2, "points": 9 },
+    { "driver": "Ryan Newman", "position": 3, "points": 8 },
+    { "driver": "Casey Mears", "position": 4, "points": 7 },
+    { "driver": "Carl Edwards", "position": 5, "points": 6 },
+    { "driver": "Bobby Labonte", "position": 6, "points": 5 },
+    { "driver": "Juan Pablo Montoya", "position": 7, "points": 4 },
+    { "driver": "Kenny Wallace", "position": 8, "points": 3 },
+    { "driver": "Sam Hornish, Jr.", "position": 9, "points": 2 },
+    { "driver": "Paul Menard", "position": 10, "points": 1 }
+  ],
+  "duel2": [
+    { "driver": "Denny Hamlin", "position": 1, "points": 10 },
+    { "driver": "Tony Stewart", "position": 2, "points": 9 },
+    { "driver": "Jeff Gordon", "position": 3, "points": 8 },
+    { "driver": "Kasey Kahne", "position": 4, "points": 7 },
+    { "driver": "Mark Martin", "position": 5, "points": 6 },
+    { "driver": "David Ragan", "position": 6, "points": 5 },
+    { "driver": "Kevin Harvick", "position": 7, "points": 4 },
+    { "driver": "Greg Biffle", "position": 8, "points": 3 },
+    { "driver": "Dale Jarrett", "position": 9, "points": 2 },
+    { "driver": "John Andretti", "position": 10, "points": 1 }
+  ],
+  "info": [
+    {
+      "stage": 1,
+      "lap": 60
+    },
+    {
+      "stage": 2,
+      "lap": 120
+    }
+  ],
+  "stage1": [
+    { "driver": "Kyle Busch", "position": 1, "points": 10 },
+    { "driver": "Denny Hamlin", "position": 2, "points": 9 },
+    { "driver": "Jeff Gordon", "position": 3, "points": 8 },
+    { "driver": "Dale Earnhardt, Jr.", "position": 4, "points": 7 },
+    { "driver": "Matt Kenseth", "position": 5, "points": 6 },
+    { "driver": "Jimmie Johnson", "position": 6, "points": 5 },
+    { "driver": "Carl Edwards", "position": 7, "points": 4 },
+    { "driver": "Kasey Kahne", "position": 8, "points": 3 },
+    { "driver": "Elliott Sadler", "position": 9, "points": 2 },
+    { "driver": "Greg Biffle", "position": 10, "points": 1 }
+  ],
+  "stage2": [
+    { "driver": "Ryan Newman", "position": 1, "points": 10 },
+    { "driver": "Greg Biffle", "position": 2, "points": 9 },
+    { "driver": "Kasey Kahne", "position": 3, "points": 8 },
+    { "driver": "Matt Kenseth", "position": 4, "points": 7 },
+    { "driver": "Sam Hornish, Jr.", "position": 5, "points": 6 },
+    { "driver": "David Ragan", "position": 6, "points": 5 },
+    { "driver": "David Reutimann", "position": 7, "points": 4 },
+    { "driver": "Michael Waltrip", "position": 8, "points": 3 },
+    { "driver": "Jeff Burton", "position": 9, "points": 2 },
+    { "driver": "Kurt Busch", "position": 10, "points": 1 }
+  ],
+  "results": [
+    {
+      "driver": "Ryan Newman",
+      "position": 1,
+      "pointsRace": 40,
+      "lapsLed": 8,
+      "penalization": 0
+    },
+    {
+      "driver": "Kurt Busch",
+      "position": 2,
+      "pointsRace": 35,
+      "lapsLed": 9,
+      "penalization": 0
+    },
+    {
+      "driver": "Tony Stewart",
+      "position": 3,
+      "pointsRace": 34,
+      "lapsLed": 16,
+      "penalization": 0
+    },
+    {
+      "driver": "Kyle Busch",
+      "position": 4,
+      "pointsRace": 33,
+      "lapsLed": 86,
+      "penalization": 0
+    },
+    {
+      "driver": "Reed Sorenson",
+      "position": 5,
+      "pointsRace": 32,
+      "lapsLed": 5,
+      "penalization": 0
+    },
+    {
+      "driver": "Elliott Sadler",
+      "position": 6,
+      "pointsRace": 31,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Kasey Kahne",
+      "position": 7,
+      "pointsRace": 30,
+      "lapsLed": 1,
+      "penalization": 0
+    },
+    {
+      "driver": "Robby Gordon",
+      "position": 8,
+      "pointsRace": 29,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Dale Earnhardt, Jr.",
+      "position": 9,
+      "pointsRace": 28,
+      "lapsLed": 12,
+      "penalization": 0
+    },
+    {
+      "driver": "Greg Biffle",
+      "position": 10,
+      "pointsRace": 27,
+      "lapsLed": 7,
+      "penalization": 0
+    },
+    {
+      "driver": "Bobby Labonte",
+      "position": 11,
+      "pointsRace": 26,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Brian Vickers",
+      "position": 12,
+      "pointsRace": 25,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Jeff Burton",
+      "position": 13,
+      "pointsRace": 24,
+      "lapsLed": 9,
+      "penalization": 0
+    },
+    {
+      "driver": "Kevin Harvick",
+      "position": 14,
+      "pointsRace": 23,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Sam Hornish, Jr.",
+      "position": 15,
+      "pointsRace": 22,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Dale Jarrett",
+      "position": 16,
+      "pointsRace": 21,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Denny Hamlin",
+      "position": 17,
+      "pointsRace": 20,
+      "lapsLed": 32,
+      "penalization": 0
+    },
+    {
+      "driver": "David Reutimann",
+      "position": 18,
+      "pointsRace": 19,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Carl Edwards",
+      "position": 19,
+      "pointsRace": 18,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Martin Truex Jr",
+      "position": 20,
+      "pointsRace": 17,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Scott Riggs",
+      "position": 21,
+      "pointsRace": 16,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Paul Menard",
+      "position": 22,
+      "pointsRace": 15,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Jeremy Mayfield",
+      "position": 23,
+      "pointsRace": 14,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Clint Bowyer",
+      "position": 24,
+      "pointsRace": 13,
+      "lapsLed": 4,
+      "penalization": 0
+    },
+    {
+      "driver": "J.J. Yeley",
+      "position": 25,
+      "pointsRace": 12,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Jamie McMurray",
+      "position": 26,
+      "pointsRace": 11,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Jimmie Johnson",
+      "position": 27,
+      "pointsRace": 10,
+      "lapsLed": 1,
+      "penalization": 0
+    },
+    {
+      "driver": "David Gilliland",
+      "position": 28,
+      "pointsRace": 9,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Michael Waltrip",
+      "position": 29,
+      "pointsRace": 8,
+      "lapsLed": 3,
+      "penalization": 0
+    },
+    {
+      "driver": "Travis Kvapil",
+      "position": 30,
+      "pointsRace": 7,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Mark Martin",
+      "position": 31,
+      "pointsRace": 6,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Juan Pablo Montoya",
+      "position": 32,
+      "pointsRace": 5,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Dario Franchitti",
+      "position": 33,
+      "pointsRace": 4,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Kyle Petty",
+      "position": 34,
+      "pointsRace": 3,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Casey Mears",
+      "position": 35,
+      "pointsRace": 2,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Matt Kenseth",
+      "position": 36,
+      "pointsRace": 1,
+      "lapsLed": 1,
+      "penalization": 0
+    },
+    {
+      "driver": "Regan Smith",
+      "position": 37,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Dave Blaney",
+      "position": 38,
+      "pointsRace": 1,
+      "lapsLed": 1,
+      "penalization": 0
+    },
+    {
+      "driver": "Jeff Gordon",
+      "position": 39,
+      "pointsRace": 1,
+      "lapsLed": 5,
+      "penalization": 0
+    },
+    {
+      "driver": "John Andretti",
+      "position": 40,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Joe Nemechek",
+      "position": 41,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "David Ragan",
+      "position": 42,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    },
+    {
+      "driver": "Kenny Wallace",
+      "position": 43,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "penalization": 0
+    }
+  ]
+}
