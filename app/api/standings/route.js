@@ -1,14 +1,17 @@
 import { promises as fs } from "fs";
 import path from "path";
 
-export async function GET(req) {
+export async function GET(req, res) {
   const { searchParams } = new URL(req.url);
+  console.log("Query params:", Object.fromEntries(searchParams));
+
+  // Si necesitas el parámetro `track` de la URL, lo obtienes así:
   const track = searchParams.get("track");
-  console.log("Track received:", track); // Verificar si llega correctamente
 
   try {
-    const directory = path.join(process.cwd(), "data", "daytona500");
+    const directory = path.join(process.cwd(), "data", track);
     // Leer todos los archivos en el directorio
+
     const files = await fs.readdir(directory);
     let pointsMap = new Map();
     let positionMap = new Map();
@@ -31,8 +34,14 @@ export async function GET(req) {
       };
 
       // Sumar puntos de cada carrera
-      raceData.duel1.forEach(({ driver, points }) => addPoints(driver, points));
-      raceData.duel2.forEach(({ driver, points }) => addPoints(driver, points));
+      if (raceData.duel1 && raceData.duel2) {
+        raceData.duel1.forEach(({ driver, points }) =>
+          addPoints(driver, points)
+        );
+        raceData.duel2.forEach(({ driver, points }) =>
+          addPoints(driver, points)
+        );
+      }
 
       raceData.stage1.forEach(({ driver, points }) =>
         addPoints(driver, points)
@@ -162,9 +171,14 @@ export async function GET(req) {
       finalRanking,
     });
   } catch (error) {
-    return Response.json(
-      { error: "Error al leer los archivos JSON" },
-      { status: 500 }
-    );
+    // return Response.json(
+    //   { error: "Error al leer los archivos JSON" },
+    //   { status: 500 }
+    console.error("Error in /api/standings:", error);
+
+    return new Response(JSON.stringify({ error: error.message }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
   }
 }
