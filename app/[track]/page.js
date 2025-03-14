@@ -21,15 +21,16 @@ const TrackData = () => {
     fetch(`/api/standings?track=${track}`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
-        res.json();
+        return res.json();
       })
       .then((data) => {
-        if (!data || data.length === 0) throw new Error("No data received");
-        setStandings(data.standings);
-        setPositions(data.positions);
-        setBestAverages(data.bestAverages);
-        setLapsLedStandings(data.lapsLedStandings);
-        setOverallRanking(data.finalRanking);
+        if (!data) throw new Error("No data received");
+
+        setStandings(data.standings || []);
+        setPositions(data.positions || []);
+        setBestAverages(data.bestAverages || []);
+        setLapsLedStandings(data.lapsLedStandings || []);
+        setOverallRanking(data.finalRanking || []);
       })
       .catch((err) => console.error("Error fetching standings:", err));
   }, [track]);
